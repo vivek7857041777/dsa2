@@ -1,0 +1,14 @@
+#a{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#b{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    align-self: center;
+}

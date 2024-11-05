@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    /* animation: coloranimate 2s linear 0s infinite reverse;
+     */
+}
+/* @keyframe colorchange{
+    from{left: 0px;} to {right:200px;} */
+        
+}
+@media (min-width : 600px){
+    div{
+        background-color: blue;
+    }
+}
+div:hover{
+    background-color: red;
+    transform: rotate(45deg);
+    
+}
+button{
+    background-color: pink;
+    color: brown;
+    transition: all 2s ease-in 0s;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+button:active{
+    background-color: magenta;
+    color: cyan;
+}
