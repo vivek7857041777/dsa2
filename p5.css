@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    position: relative ;
+    animation: colorAnimate 2s ease-in 0s infinite reverse;
+}
+@keyframes colorAnimate {
+    from{left:0px} to {left:500px}
+}
